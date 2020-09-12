@@ -46,7 +46,7 @@ DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 
 # Security patch level
-VENDOR_SECURITY_PATCH := 2020-07-05
+VENDOR_SECURITY_PATCH := 2020-08-05
 
 # TWRP
 include device/twrp/jasmine_sprout/twrp.mk
