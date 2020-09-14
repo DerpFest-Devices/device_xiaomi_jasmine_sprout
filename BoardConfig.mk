@@ -48,8 +48,5 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 # Security patch level
 VENDOR_SECURITY_PATCH := 2020-08-05
 
-# TWRP
-include device/twrp/jasmine_sprout/twrp.mk
-
 # Inherit the proprietary files
 include vendor/xiaomi/jasmine_sprout/BoardConfigVendor.mk
